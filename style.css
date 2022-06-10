@@ -148,6 +148,7 @@ html {
 
 p {
   display: block;
+  margin-bottom: 1em;
 }
 
 a {
@@ -735,7 +736,6 @@ section .location {
     content: none;
   }
   .section p {
-    margin: 0;
     padding: 0;
   }
   ul.courses::before {

@@ -561,7 +561,7 @@ section .location {
   width: 7.5em;
 }
 
-.level.master .bar::after,
+.level.expert .bar::after,
 .level.native.speaker .bar::after {
   background: #59c596;
   width: 10em;

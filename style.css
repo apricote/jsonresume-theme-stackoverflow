@@ -637,8 +637,8 @@ section .location {
     width: 70%;
     word-break: normal;
   }
-  .section header .date {
-    padding: 0.2em;
+  .section header {
+    padding: 0.2em 0;
   }
   .display {
     display: none;

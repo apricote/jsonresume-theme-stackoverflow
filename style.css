@@ -494,6 +494,14 @@ section .location {
   color: #2291c3;
 }
 
+.twitch {
+  color: #6441a4;
+}
+
+.xing {
+  color: #026466;
+}
+
 #languages .item,
 #skills .item,
 #interests .item {

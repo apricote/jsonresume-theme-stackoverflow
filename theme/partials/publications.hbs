@@ -18,17 +18,9 @@
         {{/if}}
         <div class="header-left">
           {{#if name}}
-          <span class="name">
-            {{#if website}}
-            <span class="website">
-              <span class="fas fa-external-link-alt"></span>
-              <a target="_blank" href="{{website}}">{{name}}</a>
-            </span>
-            {{else}}
-            {{name}}
-            {{/if}}
-          </span>
+          <span class="name">{{name}}</span>
           {{/if}}
+
           {{#if publisher}}
           <span class="publisher">
             in {{publisher}}
@@ -37,6 +29,14 @@
         </div>
        
       </header>
+
+      {{#if website}}
+      <span class="website">
+        <span class="fas fa-external-link-alt"></span>
+        <a target="_blank" href="{{website}}">{{website}}</a>
+      </span>
+      {{/if}}
+
       {{#if keywords.length}}
       <ul class="keywords">
         {{#each keywords}}

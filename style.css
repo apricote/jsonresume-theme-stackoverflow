@@ -213,8 +213,17 @@ section .location {
   margin-top: 0.5rem;
 }
 
-#profiles .item {
-  padding: 0;
+#contact .email span.far {
+  padding: 0.2em;
+  padding-left: 0em;
+}
+
+#profiles .item span.fab {
+  padding: 0.2em;
+}
+
+#profiles div:first-child span.fab {
+  padding-left: 0em;
 }
 
 #header > #profiles,
